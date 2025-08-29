@@ -1,0 +1,464 @@
+Some Features - Data Splitting - 100 Epochs:
+Epoch 0 - Train Loss: 6762.69189453125; Validation Loss: 6676.0771484375
+Epoch 10 - Train Loss: 589.850830078125; Validation Loss: 431.00457763671875
+Epoch 20 - Train Loss: 257.3338317871094; Validation Loss: 204.3524932861328
+Epoch 30 - Train Loss: 167.1319122314453; Validation Loss: 161.6239776611328
+Epoch 40 - Train Loss: 141.1865997314453; Validation Loss: 139.58285522460938
+Epoch 50 - Train Loss: 137.82359313964844; Validation Loss: 138.32444763183594
+Epoch 60 - Train Loss: 133.94483947753906; Validation Loss: 134.8851776123047
+Epoch 70 - Train Loss: 135.4474639892578; Validation Loss: 144.8538818359375
+Epoch 80 - Train Loss: 133.72744750976562; Validation Loss: 135.7559051513672
+Epoch 90 - Train Loss: 134.03668212890625; Validation Loss: 133.905029296875
+
+
+Tolerance - 1.0
+Total: 70000; Correct: 41381; Incorrect: 28619; Accuracy: 0.5911571428571428 - 59.11571428571428%
+Correct Counts:
+x3: 437 - Percent of Total: 0.6242857142857143%
+y3: 245 - Percent of Total: 0.35000000000000003%
+z3: 699 - Percent of Total: 0.9985714285714286%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 10000 - Percent of Total: 14.285714285714285%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 9563 - Percent of Total: 13.661428571428571%
+y3: 9755 - Percent of Total: 13.935714285714285%
+z3: 9301 - Percent of Total: 13.28714285714286%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 0 - Percent of Total: 0.0%
+sigma33: 0 - Percent of Total: 0.0%
+
+
+Tolerance - 2.5
+Total: 70000; Correct: 43424; Incorrect: 26576; Accuracy: 0.6203428571428572 - 62.03428571428572%
+Correct Counts:
+x3: 1107 - Percent of Total: 1.5814285714285714%
+y3: 621 - Percent of Total: 0.8871428571428572%
+z3: 1696 - Percent of Total: 2.422857142857143%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 10000 - Percent of Total: 14.285714285714285%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 8893 - Percent of Total: 12.704285714285716%
+y3: 9379 - Percent of Total: 13.39857142857143%
+z3: 8304 - Percent of Total: 11.862857142857143%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 0 - Percent of Total: 0.0%
+sigma33: 0 - Percent of Total: 0.0%
+
+
+Tolerance - 5.0
+Total: 70000; Correct: 46907; Incorrect: 23093; Accuracy: 0.6701 - 67.01%
+Correct Counts:
+x3: 2267 - Percent of Total: 3.238571428571429%
+y3: 1264 - Percent of Total: 1.8057142857142858%
+z3: 3376 - Percent of Total: 4.822857142857143%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 10000 - Percent of Total: 14.285714285714285%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 7733 - Percent of Total: 11.047142857142857%
+y3: 8736 - Percent of Total: 12.479999999999999%
+z3: 6624 - Percent of Total: 9.462857142857143%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 0 - Percent of Total: 0.0%
+sigma33: 0 - Percent of Total: 0.0%s
+
+
+Tolerance - 14.71
+Total: 70000; Correct: 59051; Incorrect: 10949; Accuracy: 0.8435857142857143 - 84.35857142857142%
+Correct Counts:
+x3: 6322 - Percent of Total: 9.03142857142857%
+y3: 3789 - Percent of Total: 5.412857142857143%
+z3: 8940 - Percent of Total: 12.771428571428572%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 10000 - Percent of Total: 14.285714285714285%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 3678 - Percent of Total: 5.2542857142857144%
+y3: 6211 - Percent of Total: 8.872857142857143%
+z3: 1060 - Percent of Total: 1.5142857142857145%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 0 - Percent of Total: 0.0%
+sigma33: 0 - Percent of Total: 0.0%
+
+
+Tolerance - 50.0
+Total: 70000; Correct: 69715; Incorrect: 285; Accuracy: 0.9959285714285714 - 99.59285714285714%
+Correct Counts:
+x3: 10000 - Percent of Total: 14.285714285714285%
+y3: 9715 - Percent of Total: 13.87857142857143%
+z3: 10000 - Percent of Total: 14.285714285714285%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 10000 - Percent of Total: 14.285714285714285%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 0 - Percent of Total: 0.0%
+y3: 285 - Percent of Total: 0.40714285714285714%
+z3: 0 - Percent of Total: 0.0%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 0 - Percent of Total: 0.0%
+sigma33: 0 - Percent of Total: 0.0%
+
+
+Some Features - Data Splitting - 500 Epochs:
+Epoch 0 - Train Loss: 6763.828125; Validation Loss: 6664.24755859375
+Epoch 10 - Train Loss: 589.1312255859375; Validation Loss: 426.7822265625
+Epoch 20 - Train Loss: 258.45782470703125; Validation Loss: 202.6072235107422
+Epoch 30 - Train Loss: 167.8042449951172; Validation Loss: 157.14292907714844
+Epoch 40 - Train Loss: 140.65640258789062; Validation Loss: 136.8777618408203
+Epoch 50 - Train Loss: 138.09646606445312; Validation Loss: 137.23611450195312
+Epoch 60 - Train Loss: 134.01663208007812; Validation Loss: 132.98304748535156
+Epoch 70 - Train Loss: 138.1910858154297; Validation Loss: 143.80838012695312
+Epoch 80 - Train Loss: 133.51309204101562; Validation Loss: 134.74159240722656
+Epoch 90 - Train Loss: 133.8876190185547; Validation Loss: 132.1519317626953
+Epoch 100 - Train Loss: 133.75103759765625; Validation Loss: 132.54347229003906
+Epoch 110 - Train Loss: 133.3212432861328; Validation Loss: 132.00814819335938
+Epoch 120 - Train Loss: 132.85733032226562; Validation Loss: 131.67367553710938
+Epoch 130 - Train Loss: 132.91282653808594; Validation Loss: 131.73110961914062
+Epoch 140 - Train Loss: 160.3588409423828; Validation Loss: 159.486572265625
+Epoch 150 - Train Loss: 143.31930541992188; Validation Loss: 135.8601531982422
+Epoch 160 - Train Loss: 133.43505859375; Validation Loss: 134.39080810546875
+Epoch 170 - Train Loss: 133.1588897705078; Validation Loss: 131.33644104003906
+Epoch 180 - Train Loss: 132.44776916503906; Validation Loss: 131.43350219726562
+Epoch 190 - Train Loss: 132.3516387939453; Validation Loss: 131.11463928222656
+Epoch 200 - Train Loss: 132.30963134765625; Validation Loss: 131.02243041992188
+Epoch 210 - Train Loss: 132.0041046142578; Validation Loss: 131.00953674316406
+Epoch 220 - Train Loss: 131.39999389648438; Validation Loss: 129.98031616210938
+Epoch 230 - Train Loss: 135.37551879882812; Validation Loss: 134.71722412109375
+Epoch 240 - Train Loss: 138.0727081298828; Validation Loss: 124.7562026977539
+Epoch 250 - Train Loss: 114.92240142822266; Validation Loss: 113.94915771484375
+Epoch 260 - Train Loss: 108.5477294921875; Validation Loss: 108.41844177246094
+Epoch 270 - Train Loss: 100.99415588378906; Validation Loss: 100.63423919677734
+Epoch 280 - Train Loss: 95.39641571044922; Validation Loss: 94.79338836669922
+Epoch 290 - Train Loss: 92.72496032714844; Validation Loss: 101.96277618408203
+Epoch 300 - Train Loss: 90.73845672607422; Validation Loss: 88.12771606445312
+Epoch 310 - Train Loss: 57.85141372680664; Validation Loss: 58.589454650878906
+Epoch 320 - Train Loss: 49.29012680053711; Validation Loss: 49.277870178222656
+Epoch 330 - Train Loss: 47.698612213134766; Validation Loss: 47.62791442871094
+Epoch 340 - Train Loss: 46.52184295654297; Validation Loss: 44.99496841430664
+Epoch 350 - Train Loss: 49.96744918823242; Validation Loss: 46.26731872558594
+Epoch 360 - Train Loss: 46.60636520385742; Validation Loss: 45.78408432006836
+Epoch 370 - Train Loss: 44.97124099731445; Validation Loss: 44.20757293701172
+Epoch 380 - Train Loss: 44.205894470214844; Validation Loss: 43.50166320800781
+Epoch 390 - Train Loss: 50.08808135986328; Validation Loss: 50.15739440917969
+Epoch 400 - Train Loss: 48.04440689086914; Validation Loss: 47.289981842041016
+Epoch 410 - Train Loss: 46.72064971923828; Validation Loss: 43.172245025634766
+Epoch 420 - Train Loss: 41.314979553222656; Validation Loss: 40.444664001464844
+Epoch 430 - Train Loss: 37.978153228759766; Validation Loss: 36.98883056640625
+Epoch 440 - Train Loss: 36.104373931884766; Validation Loss: 36.98604965209961
+Epoch 450 - Train Loss: 24.90384292602539; Validation Loss: 28.978750228881836
+Epoch 460 - Train Loss: 19.94843864440918; Validation Loss: 17.689725875854492
+Epoch 470 - Train Loss: 17.533456802368164; Validation Loss: 16.605796813964844
+Epoch 480 - Train Loss: 16.059005737304688; Validation Loss: 16.59792709350586
+Epoch 490 - Train Loss: 18.23484992980957; Validation Loss: 21.244661331176758
+Epoch 499 - Train Loss: 21.381135940551758; Validation Loss: 18.594036102294922
+
+
+Tolerance - 1.0
+Total: 70000; Correct: 42485; Incorrect: 27515; Accuracy: 0.6069285714285715 - 60.69285714285715%
+Correct Counts:
+x3: 1011 - Percent of Total: 1.4442857142857142%
+y3: 1464 - Percent of Total: 2.0914285714285716%
+z3: 667 - Percent of Total: 0.9528571428571428%
+n3: 9762 - Percent of Total: 13.945714285714287%
+sigma31: 9891 - Percent of Total: 14.13%
+sigma32: 9773 - Percent of Total: 13.961428571428572%
+sigma33: 9917 - Percent of Total: 14.167142857142856%
+Incorrect Counts:
+x3: 8989 - Percent of Total: 12.84142857142857%
+y3: 8536 - Percent of Total: 12.194285714285714%
+z3: 9333 - Percent of Total: 13.332857142857144%
+n3: 238 - Percent of Total: 0.33999999999999997%
+sigma31: 109 - Percent of Total: 0.15571428571428572%
+sigma32: 227 - Percent of Total: 0.3242857142857143%
+sigma33: 83 - Percent of Total: 0.11857142857142858%
+
+
+Tolerance - 2.5
+Total: 70000; Correct: 47886; Incorrect: 22114; Accuracy: 0.6840857142857143 - 68.40857142857143%
+Correct Counts:
+x3: 2591 - Percent of Total: 3.7014285714285715%
+y3: 3674 - Percent of Total: 5.248571428571429%
+z3: 1711 - Percent of Total: 2.444285714285714%
+n3: 9996 - Percent of Total: 14.280000000000001%
+sigma31: 9981 - Percent of Total: 14.258571428571429%
+sigma32: 9933 - Percent of Total: 14.19%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 7409 - Percent of Total: 10.584285714285715%
+y3: 6326 - Percent of Total: 9.037142857142857%
+z3: 8289 - Percent of Total: 11.84142857142857%
+n3: 4 - Percent of Total: 0.005714285714285714%
+sigma31: 19 - Percent of Total: 0.027142857142857146%
+sigma32: 67 - Percent of Total: 0.09571428571428571%
+sigma33: 0 - Percent of Total: 0.0%
+
+
+Tolerance - 5.0
+Total: 70000; Correct: 56095; Incorrect: 13905; Accuracy: 0.8013571428571429 - 80.13571428571429%
+Correct Counts:
+x3: 5993 - Percent of Total: 8.561428571428571%
+y3: 6679 - Percent of Total: 9.541428571428572%
+z3: 3424 - Percent of Total: 4.8914285714285715%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 9999 - Percent of Total: 14.284285714285714%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 4007 - Percent of Total: 5.724285714285714%
+y3: 3321 - Percent of Total: 4.744285714285714%
+z3: 6576 - Percent of Total: 9.394285714285715%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 1 - Percent of Total: 0.0014285714285714286%
+sigma33: 0 - Percent of Total: 0.0%
+
+
+Tolerance - 14.71
+Total: 70000; Correct: 69352; Incorrect: 648; Accuracy: 0.9907428571428571 - 99.07428571428571%
+Correct Counts:
+x3: 10000 - Percent of Total: 14.285714285714285%
+y3: 9883 - Percent of Total: 14.118571428571428%
+z3: 9469 - Percent of Total: 13.527142857142858%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 10000 - Percent of Total: 14.285714285714285%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 0 - Percent of Total: 0.0%
+y3: 117 - Percent of Total: 0.16714285714285712%
+z3: 531 - Percent of Total: 0.7585714285714286%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 0 - Percent of Total: 0.0%
+sigma33: 0 - Percent of Total: 0.0%
+
+
+Tolerance - 50.0
+Total: 70000; Correct: 70000; Incorrect: 0; Accuracy: 1.0 - 100.0%
+Correct Counts:
+x3: 10000 - Percent of Total: 14.285714285714285%
+y3: 10000 - Percent of Total: 14.285714285714285%
+z3: 10000 - Percent of Total: 14.285714285714285%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 10000 - Percent of Total: 14.285714285714285%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 0 - Percent of Total: 0.0%
+y3: 0 - Percent of Total: 0.0%
+z3: 0 - Percent of Total: 0.0%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 0 - Percent of Total: 0.0%
+sigma33: 0 - Percent of Total: 0.0%
+
+
+Some Features - Data Splitting - 1000 Epochs:
+Epoch 0 - Train Loss: 6765.1845703125; Validation Loss: 6656.72705078125
+Epoch 10 - Train Loss: 589.3427734375; Validation Loss: 429.3418884277344
+Epoch 20 - Train Loss: 258.4061279296875; Validation Loss: 202.7777862548828
+Epoch 30 - Train Loss: 167.800537109375; Validation Loss: 159.39967346191406
+Epoch 40 - Train Loss: 140.6689910888672; Validation Loss: 138.765625
+Epoch 50 - Train Loss: 138.47299194335938; Validation Loss: 141.0904998779297
+Epoch 60 - Train Loss: 135.85305786132812; Validation Loss: 134.54074096679688
+Epoch 70 - Train Loss: 134.69483947753906; Validation Loss: 135.67379760742188
+Epoch 80 - Train Loss: 134.6851348876953; Validation Loss: 136.01686096191406
+Epoch 90 - Train Loss: 135.14974975585938; Validation Loss: 134.33920288085938
+Epoch 100 - Train Loss: 133.33755493164062; Validation Loss: 133.5157470703125
+Epoch 110 - Train Loss: 140.06773376464844; Validation Loss: 141.26844787597656
+Epoch 120 - Train Loss: 135.57754516601562; Validation Loss: 134.90843200683594
+Epoch 130 - Train Loss: 133.2999267578125; Validation Loss: 133.54067993164062
+Epoch 140 - Train Loss: 135.25315856933594; Validation Loss: 136.49151611328125
+Epoch 150 - Train Loss: 132.51364135742188; Validation Loss: 133.38006591796875
+Epoch 160 - Train Loss: 132.50326538085938; Validation Loss: 133.33152770996094
+Epoch 170 - Train Loss: 135.4926300048828; Validation Loss: 137.84219360351562
+Epoch 180 - Train Loss: 132.904052734375; Validation Loss: 135.00100708007812
+Epoch 190 - Train Loss: 131.97491455078125; Validation Loss: 132.81719970703125
+Epoch 200 - Train Loss: 134.9476318359375; Validation Loss: 132.3312225341797
+Epoch 210 - Train Loss: 131.0409698486328; Validation Loss: 125.9471435546875
+Epoch 220 - Train Loss: 114.19581604003906; Validation Loss: 117.04391479492188
+Epoch 230 - Train Loss: 98.93990325927734; Validation Loss: 98.3577880859375
+Epoch 240 - Train Loss: 88.63968658447266; Validation Loss: 90.83000946044922
+Epoch 250 - Train Loss: 63.87114334106445; Validation Loss: 60.923370361328125
+Epoch 260 - Train Loss: 50.959171295166016; Validation Loss: 50.78150177001953
+Epoch 270 - Train Loss: 48.522090911865234; Validation Loss: 49.86874008178711
+Epoch 280 - Train Loss: 62.5195426940918; Validation Loss: 59.0378303527832
+Epoch 290 - Train Loss: 49.08582305908203; Validation Loss: 51.83324432373047
+Epoch 300 - Train Loss: 46.09928894042969; Validation Loss: 46.79718780517578
+Epoch 310 - Train Loss: 45.34202194213867; Validation Loss: 45.02574920654297
+Epoch 320 - Train Loss: 44.499935150146484; Validation Loss: 44.1874885559082
+Epoch 330 - Train Loss: 43.92714309692383; Validation Loss: 43.70695877075195
+Epoch 340 - Train Loss: 43.60026168823242; Validation Loss: 43.24526596069336
+Epoch 350 - Train Loss: 43.135353088378906; Validation Loss: 42.82096862792969
+Epoch 360 - Train Loss: 43.87082290649414; Validation Loss: 44.50225067138672
+Epoch 370 - Train Loss: 43.71940612792969; Validation Loss: 43.44283676147461
+Epoch 380 - Train Loss: 42.90322494506836; Validation Loss: 43.090728759765625
+Epoch 390 - Train Loss: 42.568233489990234; Validation Loss: 41.93812561035156
+Epoch 400 - Train Loss: 48.45732116699219; Validation Loss: 49.33477783203125
+Epoch 410 - Train Loss: 46.73997116088867; Validation Loss: 45.85718536376953
+Epoch 420 - Train Loss: 43.481109619140625; Validation Loss: 42.831111907958984
+Epoch 430 - Train Loss: 43.4097900390625; Validation Loss: 45.93058776855469
+Epoch 440 - Train Loss: 52.27266311645508; Validation Loss: 48.00399398803711
+Epoch 450 - Train Loss: 29.983428955078125; Validation Loss: 28.389249801635742
+Epoch 460 - Train Loss: 70.14644622802734; Validation Loss: 58.95101547241211
+Epoch 470 - Train Loss: 42.24641418457031; Validation Loss: 38.80424880981445
+Epoch 480 - Train Loss: 28.3104248046875; Validation Loss: 24.148014068603516
+Epoch 490 - Train Loss: 19.865711212158203; Validation Loss: 19.722902297973633
+Epoch 500 - Train Loss: 17.313261032104492; Validation Loss: 17.511728286743164
+Epoch 510 - Train Loss: 16.127595901489258; Validation Loss: 16.44801139831543
+Epoch 520 - Train Loss: 15.808137893676758; Validation Loss: 15.849642753601074
+Epoch 530 - Train Loss: 15.536428451538086; Validation Loss: 15.660276412963867
+Epoch 540 - Train Loss: 15.383842468261719; Validation Loss: 15.458501815795898
+Epoch 550 - Train Loss: 15.414189338684082; Validation Loss: 15.507671356201172
+Epoch 560 - Train Loss: 23.128341674804688; Validation Loss: 26.611467361450195
+Epoch 570 - Train Loss: 20.531909942626953; Validation Loss: 20.179636001586914
+Epoch 580 - Train Loss: 15.041631698608398; Validation Loss: 15.551033973693848
+Epoch 590 - Train Loss: 15.582337379455566; Validation Loss: 15.852043151855469
+Epoch 600 - Train Loss: 15.02507495880127; Validation Loss: 15.38673210144043
+Epoch 610 - Train Loss: 16.638214111328125; Validation Loss: 16.750274658203125
+Epoch 620 - Train Loss: 14.805116653442383; Validation Loss: 14.923147201538086
+Epoch 630 - Train Loss: 18.542329788208008; Validation Loss: 19.56101417541504
+Epoch 640 - Train Loss: 14.693314552307129; Validation Loss: 15.164278984069824
+Epoch 650 - Train Loss: 15.001559257507324; Validation Loss: 14.911823272705078
+Epoch 660 - Train Loss: 15.78859806060791; Validation Loss: 16.06839942932129
+Epoch 670 - Train Loss: 18.632741928100586; Validation Loss: 18.009666442871094
+Epoch 680 - Train Loss: 15.296721458435059; Validation Loss: 15.771374702453613
+Epoch 690 - Train Loss: 15.952635765075684; Validation Loss: 16.29205322265625
+Epoch 700 - Train Loss: 17.19572639465332; Validation Loss: 17.463659286499023
+Epoch 710 - Train Loss: 15.982925415039062; Validation Loss: 15.87360668182373
+Epoch 720 - Train Loss: 14.709733009338379; Validation Loss: 14.776988983154297
+Epoch 730 - Train Loss: 16.045166015625; Validation Loss: 17.00556755065918
+Epoch 740 - Train Loss: 38.105804443359375; Validation Loss: 27.6317195892334
+Epoch 750 - Train Loss: 16.258886337280273; Validation Loss: 16.38128089904785
+Epoch 760 - Train Loss: 14.714484214782715; Validation Loss: 15.304996490478516
+Epoch 770 - Train Loss: 14.671844482421875; Validation Loss: 14.700830459594727
+Epoch 780 - Train Loss: 14.662179946899414; Validation Loss: 14.775520324707031
+Epoch 790 - Train Loss: 14.372825622558594; Validation Loss: 14.419925689697266
+Epoch 800 - Train Loss: 14.38807201385498; Validation Loss: 14.40442943572998
+Epoch 810 - Train Loss: 23.70081901550293; Validation Loss: 30.709638595581055
+Epoch 820 - Train Loss: 25.136138916015625; Validation Loss: 25.133249282836914
+Epoch 830 - Train Loss: 14.424433708190918; Validation Loss: 15.892335891723633
+Epoch 840 - Train Loss: 15.366312026977539; Validation Loss: 14.579666137695312
+Epoch 850 - Train Loss: 14.57821273803711; Validation Loss: 14.705219268798828
+Epoch 860 - Train Loss: 14.497673034667969; Validation Loss: 14.504674911499023
+Epoch 870 - Train Loss: 14.377084732055664; Validation Loss: 14.325249671936035
+Epoch 880 - Train Loss: 14.270551681518555; Validation Loss: 14.380406379699707
+Epoch 890 - Train Loss: 14.661494255065918; Validation Loss: 14.80102825164795
+Epoch 900 - Train Loss: 14.670655250549316; Validation Loss: 14.876378059387207
+Epoch 910 - Train Loss: 16.006214141845703; Validation Loss: 16.497894287109375
+Epoch 920 - Train Loss: 19.391382217407227; Validation Loss: 18.909292221069336
+Epoch 930 - Train Loss: 14.333954811096191; Validation Loss: 14.66491985321045
+Epoch 940 - Train Loss: 16.030963897705078; Validation Loss: 15.925610542297363
+Epoch 950 - Train Loss: 14.448992729187012; Validation Loss: 14.328266143798828
+Epoch 960 - Train Loss: 14.455931663513184; Validation Loss: 14.48367691040039
+Epoch 970 - Train Loss: 22.13292694091797; Validation Loss: 26.288806915283203
+Epoch 980 - Train Loss: 15.610589027404785; Validation Loss: 18.648984909057617
+Epoch 990 - Train Loss: 17.218942642211914; Validation Loss: 17.1936092376709
+Epoch 999 - Train Loss: 15.575425148010254; Validation Loss: 15.153292655944824
+
+Tolerance - 1.0
+Total: 70000; Correct: 45891; Incorrect: 24109; Accuracy: 0.6555857142857143 - 65.55857142857143%
+Correct Counts:
+x3: 2949 - Percent of Total: 4.2128571428571435%
+y3: 2259 - Percent of Total: 3.227142857142857%
+z3: 691 - Percent of Total: 0.9871428571428571%
+n3: 9997 - Percent of Total: 14.281428571428572%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 9995 - Percent of Total: 14.278571428571428%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 7051 - Percent of Total: 10.072857142857144%
+y3: 7741 - Percent of Total: 11.05857142857143%
+z3: 9309 - Percent of Total: 13.29857142857143%
+n3: 3 - Percent of Total: 0.004285714285714286%s
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 5 - Percent of Total: 0.0071428571428571435%
+sigma33: 0 - Percent of Total: 0.0%
+
+Tolerance - 2.5
+Total: 70000; Correct: 53369; Incorrect: 16631; Accuracy: 0.7624142857142857 - 76.24142857142857%
+Correct Counts:
+x3: 6592 - Percent of Total: 9.417142857142856%
+y3: 5051 - Percent of Total: 7.215714285714285%
+z3: 1726 - Percent of Total: 2.4657142857142857%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 10000 - Percent of Total: 14.285714285714285%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 3408 - Percent of Total: 4.868571428571428%
+y3: 4949 - Percent of Total: 7.07%
+z3: 8274 - Percent of Total: 11.82%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 0 - Percent of Total: 0.0%
+sigma33: 0 - Percent of Total: 0.0%
+
+Tolerance - 5.0
+Total: 70000; Correct: 60330; Incorrect: 9670; Accuracy: 0.8618571428571429 - 86.18571428571428%
+Correct Counts:
+x3: 8964 - Percent of Total: 12.805714285714288%
+y3: 7801 - Percent of Total: 11.144285714285715%
+z3: 3565 - Percent of Total: 5.0928571428571425%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 10000 - Percent of Total: 14.285714285714285%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 1036 - Percent of Total: 1.48%
+y3: 2199 - Percent of Total: 3.1414285714285715%
+z3: 6435 - Percent of Total: 9.192857142857143%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 0 - Percent of Total: 0.0%
+sigma33: 0 - Percent of Total: 0.0%
+
+Tolerance - 14.71
+Total: 70000; Correct: 69116; Incorrect: 884; Accuracy: 0.9873714285714286 - 98.73714285714286%
+Correct Counts:
+x3: 10000 - Percent of Total: 14.285714285714285%
+y3: 9993 - Percent of Total: 14.275714285714287%
+z3: 9123 - Percent of Total: 13.032857142857143%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 10000 - Percent of Total: 14.285714285714285%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 0 - Percent of Total: 0.0%
+y3: 7 - Percent of Total: 0.01%
+z3: 877 - Percent of Total: 1.252857142857143%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 0 - Percent of Total: 0.0%
+sigma33: 0 - Percent of Total: 0.0%
+
+Tolerance - 50.0
+Total: 70000; Correct: 70000; Incorrect: 0; Accuracy: 1.0 - 100.0%
+Correct Counts:
+x3: 10000 - Percent of Total: 14.285714285714285%
+y3: 10000 - Percent of Total: 14.285714285714285%
+z3: 10000 - Percent of Total: 14.285714285714285%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 10000 - Percent of Total: 14.285714285714285%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 0 - Percent of Total: 0.0%
+y3: 0 - Percent of Total: 0.0%
+z3: 0 - Percent of Total: 0.0%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 0 - Percent of Total: 0.0%
+sigma33: 0 - Percent of Total: 0.0%

@@ -1,0 +1,112 @@
+Batch Size 32 - Leaky ReLU - 100 Epochs
+Epoch 0 - Average Training Loss: 130.13121516494752; Average Validation Loss: 736.1097100108576
+Epoch 10 - Average Training Loss: 19.562657570075988; Average Validation Loss: 36.284902365443806
+Epoch 20 - Average Training Loss: 26.05071923789978; Average Validation Loss: 84.07036544263553
+Epoch 30 - Average Training Loss: 62.24735242233277; Average Validation Loss: 49.79623692180402
+Epoch 40 - Average Training Loss: 63.94800585098267; Average Validation Loss: 68.99269896193434
+Epoch 50 - Average Training Loss: 67.26050946807861; Average Validation Loss: 77.34655257154958
+Epoch 60 - Average Training Loss: 116.20034530944824; Average Validation Loss: 77.8117917216243
+Epoch 70 - Average Training Loss: 79.79691894226075; Average Validation Loss: 81.27107082769132
+Epoch 80 - Average Training Loss: 89.39803131866455; Average Validation Loss: 69.82386748097575
+Epoch 90 - Average Training Loss: 89.7230491104126; Average Validation Loss: 69.77451295212816
+Epoch 99 - Average Training Loss: 83.27457832489014; Average Validation Loss: 71.66801002916817
+
+Tolerance - 1.0
+Total: 70000; Correct: 42112; Incorrect: 27888; Accuracy: 0.6016 - 60.160000000000004%
+Correct Counts:
+x3: 453 - Percent of Total: 0.6471428571428571%
+y3: 1332 - Percent of Total: 1.902857142857143%
+z3: 488 - Percent of Total: 0.6971428571428571%
+n3: 9997 - Percent of Total: 14.281428571428572%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 9842 - Percent of Total: 14.06%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 9547 - Percent of Total: 13.638571428571428%
+y3: 8668 - Percent of Total: 12.382857142857143%
+z3: 9512 - Percent of Total: 13.588571428571427%
+n3: 3 - Percent of Total: 0.004285714285714286%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 158 - Percent of Total: 0.22571428571428573%
+sigma33: 0 - Percent of Total: 0.0%
+
+
+Tolerance - 2.5
+Total: 70000; Correct: 45664; Incorrect: 24336; Accuracy: 0.6523428571428571 - 65.2342857142857%
+Correct Counts:
+x3: 1123 - Percent of Total: 1.6042857142857143%
+y3: 3275 - Percent of Total: 4.678571428571429%
+z3: 1266 - Percent of Total: 1.8085714285714285%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 10000 - Percent of Total: 14.285714285714285%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 8877 - Percent of Total: 12.68142857142857%
+y3: 6725 - Percent of Total: 9.607142857142858%
+z3: 8734 - Percent of Total: 12.477142857142857%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 0 - Percent of Total: 0.0%
+sigma33: 0 - Percent of Total: 0.0%
+
+
+Tolerance - 5.0
+Total: 70000; Correct: 50588; Incorrect: 19412; Accuracy: 0.7226857142857143 - 72.26857142857142%
+Correct Counts:
+x3: 2250 - Percent of Total: 3.214285714285714%
+y3: 5854 - Percent of Total: 8.362857142857143%
+z3: 2484 - Percent of Total: 3.548571428571429%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 10000 - Percent of Total: 14.285714285714285%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 7750 - Percent of Total: 11.071428571428571%
+y3: 4146 - Percent of Total: 5.922857142857143%
+z3: 7516 - Percent of Total: 10.737142857142858%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 0 - Percent of Total: 0.0%
+sigma33: 0 - Percent of Total: 0.0%
+
+
+Tolerance - 14.71
+Total: 70000; Correct: 62344; Incorrect: 7656; Accuracy: 0.8906285714285714 - 89.06285714285714%
+Correct Counts:
+x3: 6365 - Percent of Total: 9.092857142857143%
+y3: 9300 - Percent of Total: 13.285714285714286%
+z3: 6679 - Percent of Total: 9.541428571428572%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 10000 - Percent of Total: 14.285714285714285%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 3635 - Percent of Total: 5.192857142857143%
+y3: 700 - Percent of Total: 1.0%
+z3: 3321 - Percent of Total: 4.744285714285714%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 0 - Percent of Total: 0.0%
+sigma33: 0 - Percent of Total: 0.0%
+
+
+Tolerance - 50
+Total: 70000; Correct: 70000; Incorrect: 0; Accuracy: 1.0 - 100.0%
+Correct Counts:
+x3: 10000 - Percent of Total: 14.285714285714285%
+y3: 10000 - Percent of Total: 14.285714285714285%
+z3: 10000 - Percent of Total: 14.285714285714285%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 10000 - Percent of Total: 14.285714285714285%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 0 - Percent of Total: 0.0%
+y3: 0 - Percent of Total: 0.0%
+z3: 0 - Percent of Total: 0.0%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 0 - Percent of Total: 0.0%
+sigma33: 0 - Percent of Total: 0.0%
+

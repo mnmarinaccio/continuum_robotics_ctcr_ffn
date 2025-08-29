@@ -1,0 +1,209 @@
+Architecture
+class Model(nn.Module):
+    def __init__(self, in_features=numInputs, h1=batch_size, h2=96, h3=50, h4=30, h5=25, h6=18, h7=15, out_features=numOutputs):
+        super().__init__()
+        self.fc1 = nn.Linear(in_features, h1)
+        self.batchLayer = nn.BatchNorm1d(h1)
+        self.layerNorm = LayerNorm(h1)
+        self.fc2 = nn.Linear(h1, h2)
+        self.fc3 = nn.Linear(h2, h3)
+        self.dropout1 = nn.Dropout(0.2)
+        self.fc4 = nn.Linear(h3, h4)
+        self.fc5 = nn.Linear(h4, h5)
+        self.dropout2 = nn.Dropout(0.2)
+        self.fc6 = nn.Linear(h5, h6)
+        self.fc7 = nn.Linear(h6, h7)
+        self.out = nn.Linear(h7, out_features)
+
+        # Apply He Initialization to the linear layers
+        self.init_weights()
+
+    def init_weights(self):
+        for m in self.modules():
+            if isinstance(m, nn.Linear):
+                init.kaiming_normal_(m.weight, mode='fan_in', nonlinearity='leaky_relu', a=0.2)
+                if m.bias is not None:
+                    init.constant_(m.bias, 0)
+            elif isinstance(m, nn.PReLU):
+                # Initialize PReLU parameters
+                init.constant_(m.weight, 0.25)  # Set the negative slope to 0.25
+
+    def forward(self, x):
+        x=self.fc1(x)
+        x = self.batchLayer(x)
+        x = F.prelu(x, weight=torch.Tensor([0.25]).to(x.device))  
+        x = self.layerNorm(x)
+        x=self.fc2(x)
+        x = F.prelu(x, weight=torch.Tensor([0.25]).to(x.device))  
+        x=self.fc3(x)
+        x = F.prelu(x, weight=torch.Tensor([0.25]).to(x.device))  
+        x = self.dropout1(x)
+        x=self.fc4(x)
+        x = F.prelu(x, weight=torch.Tensor([0.25]).to(x.device)) 
+        x=self.fc5(x)
+        x = F.prelu(x, weight=torch.Tensor([0.25]).to(x.device))
+        x = self.dropout2(x)
+        x=self.fc6(x)
+        x = F.prelu(x, weight=torch.Tensor([0.25]).to(x.device))  
+        x=self.fc7(x)
+        x = F.prelu(x, weight=torch.Tensor([0.25]).to(x.device))  
+        x = self.out(x)
+        
+        return x
+
+
+Epoch 0 - Average Training Loss: 208.05650949707032; Average Validation Loss: 533.9855659581438
+Epoch 10 - Average Training Loss: 12.350385163116455; Average Validation Loss: 71.62078949167758
+Epoch 20 - Average Training Loss: 10.66720247039795; Average Validation Loss: 90.01796374743498
+Epoch 30 - Average Training Loss: 9.84477347946167; Average Validation Loss: 65.17528205581858
+Epoch 40 - Average Training Loss: 9.75435377960205; Average Validation Loss: 66.81588595426535
+Epoch 50 - Average Training Loss: 9.347086882019044; Average Validation Loss: 105.83709938918489
+Epoch 60 - Average Training Loss: 8.912484981536865; Average Validation Loss: 18.964085759995857
+Epoch 70 - Average Training Loss: 8.668332183074952; Average Validation Loss: 46.0008733725246
+Epoch 80 - Average Training Loss: 8.717560640716552; Average Validation Loss: 75.81679452823687
+Epoch 90 - Average Training Loss: 8.492987422943115; Average Validation Loss: 33.84458138671103
+Epoch 100 - Average Training Loss: 8.51293324661255; Average Validation Loss: 28.441332756718502
+Epoch 110 - Average Training Loss: 8.173153602600097; Average Validation Loss: 24.830952294265167
+Epoch 120 - Average Training Loss: 8.196488076019287; Average Validation Loss: 82.23980828780162
+Epoch 130 - Average Training Loss: 8.416026859283447; Average Validation Loss: 42.47837906849535
+Epoch 140 - Average Training Loss: 8.320485855865478; Average Validation Loss: 40.812139342102824
+Epoch 150 - Average Training Loss: 8.028910064697266; Average Validation Loss: 34.63996288444422
+Epoch 160 - Average Training Loss: 7.904598529052734; Average Validation Loss: 37.86148013344294
+Epoch 170 - Average Training Loss: 8.01737365951538; Average Validation Loss: 30.94744549521917
+Epoch 180 - Average Training Loss: 8.089332593536376; Average Validation Loss: 34.18413741679131
+Epoch 190 - Average Training Loss: 7.888184062194824; Average Validation Loss: 54.19358391097829
+Epoch 200 - Average Training Loss: 8.020530393218994; Average Validation Loss: 37.71472716029686
+Epoch 210 - Average Training Loss: 8.012184795379639; Average Validation Loss: 38.47766922093645
+Epoch 220 - Average Training Loss: 7.906979945373535; Average Validation Loss: 54.40026884441134
+Epoch 230 - Average Training Loss: 7.9030394386291505; Average Validation Loss: 18.35992111737215
+Epoch 240 - Average Training Loss: 8.002472269439698; Average Validation Loss: 41.857665098166166
+Epoch 250 - Average Training Loss: 7.808686833953858; Average Validation Loss: 85.34740322451049
+Epoch 260 - Average Training Loss: 7.832032273101807; Average Validation Loss: 26.807272850712643
+Epoch 270 - Average Training Loss: 7.764500661468506; Average Validation Loss: 35.167630086971236
+Epoch 280 - Average Training Loss: 7.8290775093078615; Average Validation Loss: 60.72794424129438
+Epoch 290 - Average Training Loss: 7.746731741333008; Average Validation Loss: 63.67899250078805
+Epoch 300 - Average Training Loss: 7.767807153320312; Average Validation Loss: 44.06537174273141
+Epoch 310 - Average Training Loss: 7.76370546875; Average Validation Loss: 31.248184831836557
+Epoch 320 - Average Training Loss: 7.837879096984863; Average Validation Loss: 21.083541556249692
+Epoch 330 - Average Training Loss: 7.9534576126098635; Average Validation Loss: 27.07455830634395
+Epoch 340 - Average Training Loss: 7.594633029937744; Average Validation Loss: 21.435029476503782
+Epoch 350 - Average Training Loss: 7.643908499145508; Average Validation Loss: 34.22455973564824
+Epoch 360 - Average Training Loss: 7.674099745941162; Average Validation Loss: 34.13239759131323
+Epoch 370 - Average Training Loss: 7.541262410736084; Average Validation Loss: 25.263687809811362
+Epoch 380 - Average Training Loss: 7.496959616088867; Average Validation Loss: 48.63236101367806
+Epoch 390 - Average Training Loss: 7.6505791938781735; Average Validation Loss: 36.935007578209984
+Epoch 400 - Average Training Loss: 7.639695769500732; Average Validation Loss: 49.21465866475166
+Epoch 410 - Average Training Loss: 7.5246639198303225; Average Validation Loss: 61.58004987692531
+Epoch 420 - Average Training Loss: 7.596835813140869; Average Validation Loss: 58.84167364579213
+Epoch 430 - Average Training Loss: 7.580162279510498; Average Validation Loss: 37.25782046740568
+Epoch 440 - Average Training Loss: 7.671028894042969; Average Validation Loss: 49.651551741587966
+Epoch 450 - Average Training Loss: 7.7770621131896975; Average Validation Loss: 29.92189887807339
+Epoch 460 - Average Training Loss: 7.591028778076172; Average Validation Loss: 29.335649152345294
+Epoch 470 - Average Training Loss: 7.523037472534179; Average Validation Loss: 47.61871139912666
+Epoch 480 - Average Training Loss: 7.333093865203858; Average Validation Loss: 21.188160835942135
+Epoch 490 - Average Training Loss: 7.360111702728272; Average Validation Loss: 22.12314311160317
+Epoch 499 - Average Training Loss: 7.66354181060791; Average Validation Loss: 20.925277033938638
+
+Tolerance - 1.0
+Total: 70000; Correct: 43853; Incorrect: 26147; Accuracy: 0.6264714285714286 - 62.64714285714285%
+Correct Counts:
+x3: 1800 - Percent of Total: 2.571428571428571%
+y3: 1213 - Percent of Total: 1.7328571428571429%
+z3: 840 - Percent of Total: 1.2%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 10000 - Percent of Total: 14.285714285714285%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 8200 - Percent of Total: 11.714285714285715%
+y3: 8787 - Percent of Total: 12.552857142857142%
+z3: 9160 - Percent of Total: 13.085714285714287%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 0 - Percent of Total: 0.0%
+sigma33: 0 - Percent of Total: 0.0%
+
+
+Tolerance - 2.5
+Total: 70000; Correct: 49436; Incorrect: 20564; Accuracy: 0.7062285714285714 - 70.62285714285714%
+Correct Counts:
+x3: 4255 - Percent of Total: 6.078571428571428%
+y3: 3069 - Percent of Total: 4.384285714285714%
+z3: 2112 - Percent of Total: 3.017142857142857%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 10000 - Percent of Total: 14.285714285714285%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 5745 - Percent of Total: 8.207142857142857%
+y3: 6931 - Percent of Total: 9.901428571428571%
+z3: 7888 - Percent of Total: 11.268571428571429%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 0 - Percent of Total: 0.0%
+sigma33: 0 - Percent of Total: 0.0%
+
+
+Tolerance - 5.0
+Total: 70000; Correct: 56926; Incorrect: 13074; Accuracy: 0.8132285714285714 - 81.32285714285715%
+Correct Counts:
+x3: 7164 - Percent of Total: 10.234285714285713%
+y3: 5673 - Percent of Total: 8.104285714285714%
+z3: 4089 - Percent of Total: 5.841428571428572%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 10000 - Percent of Total: 14.285714285714285%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 2836 - Percent of Total: 4.051428571428571%
+y3: 4327 - Percent of Total: 6.1814285714285715%
+z3: 5911 - Percent of Total: 8.444285714285714%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 0 - Percent of Total: 0.0%
+sigma33: 0 - Percent of Total: 0.0%
+
+
+Tolerance - 14.71
+Total: 70000; Correct: 68532; Incorrect: 1468; Accuracy: 0.9790285714285715 - 97.90285714285714%
+Correct Counts:
+x3: 9977 - Percent of Total: 14.252857142857142%
+y3: 9694 - Percent of Total: 13.848571428571429%
+z3: 8861 - Percent of Total: 12.658571428571427%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 10000 - Percent of Total: 14.285714285714285%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 23 - Percent of Total: 0.032857142857142856%
+y3: 306 - Percent of Total: 0.4371428571428571%
+z3: 1139 - Percent of Total: 1.6271428571428572%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 0 - Percent of Total: 0.0%
+sigma33: 0 - Percent of Total: 0.0%
+
+
+Tolerance - 50.0
+Total: 70000; Correct: 70000; Incorrect: 0; Accuracy: 1.0 - 100.0%
+Correct Counts:
+x3: 10000 - Percent of Total: 14.285714285714285%
+y3: 10000 - Percent of Total: 14.285714285714285%
+z3: 10000 - Percent of Total: 14.285714285714285%
+n3: 10000 - Percent of Total: 14.285714285714285%
+sigma31: 10000 - Percent of Total: 14.285714285714285%
+sigma32: 10000 - Percent of Total: 14.285714285714285%
+sigma33: 10000 - Percent of Total: 14.285714285714285%
+Incorrect Counts:
+x3: 0 - Percent of Total: 0.0%
+y3: 0 - Percent of Total: 0.0%
+z3: 0 - Percent of Total: 0.0%
+n3: 0 - Percent of Total: 0.0%
+sigma31: 0 - Percent of Total: 0.0%
+sigma32: 0 - Percent of Total: 0.0%
+sigma33: 0 - Percent of Total: 0.0%
+
+
+Translational and Rotational Errors
+Total Count: 10000; Average Translational Error (et) = 10.953390121459961 mm; 0.43123582005500793 in
+Total Count: 10000; Average Rotational Error (etheta) = 0.4031734873707524 radians; 23.100139237915112 degrees

@@ -1,0 +1,223 @@
+Learning Rate = 0.1; Dropout Rate = 0.2; Batch Size = 128
+Epoch 0 - Average Training Loss: 5.922486316108704; Average Validation Loss: 4.138407456723949
+Epoch 10 - Average Training Loss: 24463.025508007813; Average Validation Loss: 82816.60452927215
+Epoch 20 - Average Training Loss: 10075.010949414063; Average Validation Loss: 22698.722507911392
+Epoch 30 - Average Training Loss: 521.6159972839356; Average Validation Loss: 52.708351618126976
+Epoch 40 - Average Training Loss: 53122.6444796875; Average Validation Loss: 437794.19818037975
+Epoch 50 - Average Training Loss: 15161.722952539063; Average Validation Loss: 26877.08047369462
+Epoch 60 - Average Training Loss: 2318.119933203125; Average Validation Loss: 272.6395680874209
+Epoch 70 - Average Training Loss: 179.19639259643554; Average Validation Loss: 104.03220995166633
+Epoch 80 - Average Training Loss: 53924.9776234375; Average Validation Loss: 3944.0511242830303
+Epoch 90 - Average Training Loss: 11889.38573828125; Average Validation Loss: 9445.76426522943
+Epoch 100 - Average Training Loss: 47646305.221635155; Average Validation Loss: 146791.7654272152
+Epoch 110 - Average Training Loss: 21556.023881640624; Average Validation Loss: 2430.7582575158226
+Epoch 120 - Average Training Loss: 30793.64306484375; Average Validation Loss: 96970.5233386076
+Epoch 130 - Average Training Loss: 2248200.120275; Average Validation Loss: 1575971.805379747
+Epoch 140 - Average Training Loss: 22561.00885078125; Average Validation Loss: 10000.737143987342
+Epoch 149 - Average Training Loss: 5644.406424804687; Average Validation Loss: 4965.892559582674
+Learning Rate = 0.1; Dropout Rate = 0.3; Batch Size = 128
+Epoch 0 - Average Training Loss: 5.922486316108704; Average Validation Loss: 4.138407456723949
+Epoch 10 - Average Training Loss: 24463.025508007813; Average Validation Loss: 82816.60452927215
+Epoch 20 - Average Training Loss: 10075.010949414063; Average Validation Loss: 22698.722507911392
+Epoch 30 - Average Training Loss: 521.6159972839356; Average Validation Loss: 52.708351618126976
+Epoch 40 - Average Training Loss: 53122.6444796875; Average Validation Loss: 437794.19818037975
+Epoch 50 - Average Training Loss: 15161.722952539063; Average Validation Loss: 26877.08047369462
+Epoch 60 - Average Training Loss: 2318.119933203125; Average Validation Loss: 272.6395680874209
+Epoch 70 - Average Training Loss: 179.19639259643554; Average Validation Loss: 104.03220995166633
+Epoch 80 - Average Training Loss: 53924.9776234375; Average Validation Loss: 3944.0511242830303
+Epoch 90 - Average Training Loss: 11889.38573828125; Average Validation Loss: 9445.76426522943
+Epoch 100 - Average Training Loss: 47646305.221635155; Average Validation Loss: 146791.7654272152
+Epoch 110 - Average Training Loss: 21556.023881640624; Average Validation Loss: 2430.7582575158226
+Epoch 120 - Average Training Loss: 30793.64306484375; Average Validation Loss: 96970.5233386076
+Epoch 130 - Average Training Loss: 2248200.120275; Average Validation Loss: 1575971.805379747
+Epoch 140 - Average Training Loss: 22561.00885078125; Average Validation Loss: 10000.737143987342
+Epoch 149 - Average Training Loss: 5644.406424804687; Average Validation Loss: 4965.892559582674
+Learning Rate = 0.1; Dropout Rate = 0.4; Batch Size = 128
+Epoch 0 - Average Training Loss: 5.922486316108704; Average Validation Loss: 4.138407456723949
+Epoch 10 - Average Training Loss: 24463.025508007813; Average Validation Loss: 82816.60452927215
+Epoch 20 - Average Training Loss: 10075.010949414063; Average Validation Loss: 22698.722507911392
+Epoch 30 - Average Training Loss: 521.6159972839356; Average Validation Loss: 52.708351618126976
+Epoch 40 - Average Training Loss: 53122.6444796875; Average Validation Loss: 437794.19818037975
+Epoch 50 - Average Training Loss: 15161.722952539063; Average Validation Loss: 26877.08047369462
+Epoch 60 - Average Training Loss: 2318.119933203125; Average Validation Loss: 272.6395680874209
+Epoch 70 - Average Training Loss: 179.19639259643554; Average Validation Loss: 104.03220995166633
+Epoch 80 - Average Training Loss: 53924.9776234375; Average Validation Loss: 3944.0511242830303
+Epoch 90 - Average Training Loss: 11889.38573828125; Average Validation Loss: 9445.76426522943
+Epoch 100 - Average Training Loss: 47646305.221635155; Average Validation Loss: 146791.7654272152
+Epoch 110 - Average Training Loss: 21556.023881640624; Average Validation Loss: 2430.7582575158226
+Epoch 120 - Average Training Loss: 30793.64306484375; Average Validation Loss: 96970.5233386076
+Epoch 130 - Average Training Loss: 2248200.120275; Average Validation Loss: 1575971.805379747
+Epoch 140 - Average Training Loss: 22561.00885078125; Average Validation Loss: 10000.737143987342
+Epoch 149 - Average Training Loss: 5644.406424804687; Average Validation Loss: 4965.892559582674
+Learning Rate = 0.1; Dropout Rate = 0.5; Batch Size = 128
+Epoch 0 - Average Training Loss: 5.922486316108704; Average Validation Loss: 4.138407456723949
+Epoch 10 - Average Training Loss: 24463.025508007813; Average Validation Loss: 82816.60452927215
+Epoch 20 - Average Training Loss: 10075.010949414063; Average Validation Loss: 22698.722507911392
+Epoch 30 - Average Training Loss: 521.6159972839356; Average Validation Loss: 52.708351618126976
+Epoch 40 - Average Training Loss: 53122.6444796875; Average Validation Loss: 437794.19818037975
+Epoch 50 - Average Training Loss: 15161.722952539063; Average Validation Loss: 26877.08047369462
+Epoch 60 - Average Training Loss: 2318.119933203125; Average Validation Loss: 272.6395680874209
+Epoch 70 - Average Training Loss: 179.19639259643554; Average Validation Loss: 104.03220995166633
+Epoch 80 - Average Training Loss: 53924.9776234375; Average Validation Loss: 3944.0511242830303
+Epoch 90 - Average Training Loss: 11889.38573828125; Average Validation Loss: 9445.76426522943
+Epoch 100 - Average Training Loss: 47646305.221635155; Average Validation Loss: 146791.7654272152
+Epoch 110 - Average Training Loss: 21556.023881640624; Average Validation Loss: 2430.7582575158226
+Epoch 120 - Average Training Loss: 30793.64306484375; Average Validation Loss: 96970.5233386076
+Epoch 130 - Average Training Loss: 2248200.120275; Average Validation Loss: 1575971.805379747
+Epoch 140 - Average Training Loss: 22561.00885078125; Average Validation Loss: 10000.737143987342
+Epoch 149 - Average Training Loss: 5644.406424804687; Average Validation Loss: 4965.892559582674
+Learning Rate = 0.01; Dropout Rate = 0.2; Batch Size = 128
+Epoch 0 - Average Training Loss: 3.2015709815979005; Average Validation Loss: 4.839540203915367
+Epoch 10 - Average Training Loss: 1.4192457812309265; Average Validation Loss: 15.118944638892065
+Epoch 20 - Average Training Loss: 1.2716024036407472; Average Validation Loss: 5.256709491150288
+Epoch 30 - Average Training Loss: 1.1911185508728028; Average Validation Loss: 4.22716437110418
+Epoch 40 - Average Training Loss: 1.1365912627220154; Average Validation Loss: 3.2109225128270404
+Epoch 50 - Average Training Loss: 1.120663293647766; Average Validation Loss: 3.0083283774460416
+Epoch 60 - Average Training Loss: 1.1001636359214784; Average Validation Loss: 4.341585645192786
+Epoch 70 - Average Training Loss: 1.0856788082122804; Average Validation Loss: 5.229589353633832
+Epoch 80 - Average Training Loss: 1.0698509155273437; Average Validation Loss: 3.409852580179142
+Epoch 90 - Average Training Loss: 1.0472505579948426; Average Validation Loss: 4.357506978360912
+Epoch 100 - Average Training Loss: 1.0282064984321595; Average Validation Loss: 3.008368567575382
+Epoch 110 - Average Training Loss: 1.0349685158729554; Average Validation Loss: 2.149523563022855
+Epoch 120 - Average Training Loss: 1.0459947407722474; Average Validation Loss: 2.605098196222812
+Epoch 130 - Average Training Loss: 1.0226894248008729; Average Validation Loss: 4.771380756474748
+Epoch 140 - Average Training Loss: 1.0235515162467956; Average Validation Loss: 5.170000118545339
+Epoch 149 - Average Training Loss: 1.0155459348678588; Average Validation Loss: 4.642796299125575
+Learning Rate = 0.01; Dropout Rate = 0.3; Batch Size = 128
+Epoch 0 - Average Training Loss: 3.2015709815979005; Average Validation Loss: 4.839540203915367
+Epoch 10 - Average Training Loss: 1.4192457812309265; Average Validation Loss: 15.118944638892065
+Epoch 20 - Average Training Loss: 1.2716024036407472; Average Validation Loss: 5.256709491150288
+Epoch 30 - Average Training Loss: 1.1911185508728028; Average Validation Loss: 4.22716437110418
+Epoch 40 - Average Training Loss: 1.1365912627220154; Average Validation Loss: 3.2109225128270404
+Epoch 50 - Average Training Loss: 1.120663293647766; Average Validation Loss: 3.0083283774460416
+Epoch 60 - Average Training Loss: 1.1001636359214784; Average Validation Loss: 4.341585645192786
+Epoch 70 - Average Training Loss: 1.0856788082122804; Average Validation Loss: 5.229589353633832
+Epoch 80 - Average Training Loss: 1.0698509155273437; Average Validation Loss: 3.409852580179142
+Epoch 90 - Average Training Loss: 1.0472505579948426; Average Validation Loss: 4.357506978360912
+Epoch 100 - Average Training Loss: 1.0282064984321595; Average Validation Loss: 3.008368567575382
+Epoch 110 - Average Training Loss: 1.0349685158729554; Average Validation Loss: 2.149523563022855
+Epoch 120 - Average Training Loss: 1.0459947407722474; Average Validation Loss: 2.605098196222812
+Epoch 130 - Average Training Loss: 1.0226894248008729; Average Validation Loss: 4.771380756474748
+Epoch 140 - Average Training Loss: 1.0235515162467956; Average Validation Loss: 5.170000118545339
+Epoch 149 - Average Training Loss: 1.0155459348678588; Average Validation Loss: 4.642796299125575
+Learning Rate = 0.01; Dropout Rate = 0.4; Batch Size = 128
+Epoch 0 - Average Training Loss: 3.2015709815979005; Average Validation Loss: 4.839540203915367
+Epoch 10 - Average Training Loss: 1.4192457812309265; Average Validation Loss: 15.118944638892065
+Epoch 20 - Average Training Loss: 1.2716024036407472; Average Validation Loss: 5.256709491150288
+Epoch 30 - Average Training Loss: 1.1911185508728028; Average Validation Loss: 4.22716437110418
+Epoch 40 - Average Training Loss: 1.1365912627220154; Average Validation Loss: 3.2109225128270404
+Epoch 50 - Average Training Loss: 1.120663293647766; Average Validation Loss: 3.0083283774460416
+Epoch 60 - Average Training Loss: 1.1001636359214784; Average Validation Loss: 4.341585645192786
+Epoch 70 - Average Training Loss: 1.0856788082122804; Average Validation Loss: 5.229589353633832
+Epoch 80 - Average Training Loss: 1.0698509155273437; Average Validation Loss: 3.409852580179142
+Epoch 90 - Average Training Loss: 1.0472505579948426; Average Validation Loss: 4.357506978360912
+Epoch 100 - Average Training Loss: 1.0282064984321595; Average Validation Loss: 3.008368567575382
+Epoch 110 - Average Training Loss: 1.0349685158729554; Average Validation Loss: 2.149523563022855
+Epoch 120 - Average Training Loss: 1.0459947407722474; Average Validation Loss: 2.605098196222812
+Epoch 130 - Average Training Loss: 1.0226894248008729; Average Validation Loss: 4.771380756474748
+Epoch 140 - Average Training Loss: 1.0235515162467956; Average Validation Loss: 5.170000118545339
+Epoch 149 - Average Training Loss: 1.0155459348678588; Average Validation Loss: 4.642796299125575
+Learning Rate = 0.01; Dropout Rate = 0.5; Batch Size = 128
+Epoch 0 - Average Training Loss: 3.2015709815979005; Average Validation Loss: 4.839540203915367
+Epoch 10 - Average Training Loss: 1.4192457812309265; Average Validation Loss: 15.118944638892065
+Epoch 20 - Average Training Loss: 1.2716024036407472; Average Validation Loss: 5.256709491150288
+Epoch 30 - Average Training Loss: 1.1911185508728028; Average Validation Loss: 4.22716437110418
+Epoch 40 - Average Training Loss: 1.1365912627220154; Average Validation Loss: 3.2109225128270404
+Epoch 50 - Average Training Loss: 1.120663293647766; Average Validation Loss: 3.0083283774460416
+Epoch 60 - Average Training Loss: 1.1001636359214784; Average Validation Loss: 4.341585645192786
+Epoch 70 - Average Training Loss: 1.0856788082122804; Average Validation Loss: 5.229589353633832
+Epoch 80 - Average Training Loss: 1.0698509155273437; Average Validation Loss: 3.409852580179142
+Epoch 90 - Average Training Loss: 1.0472505579948426; Average Validation Loss: 4.357506978360912
+Epoch 100 - Average Training Loss: 1.0282064984321595; Average Validation Loss: 3.008368567575382
+Epoch 110 - Average Training Loss: 1.0349685158729554; Average Validation Loss: 2.149523563022855
+Epoch 120 - Average Training Loss: 1.0459947407722474; Average Validation Loss: 2.605098196222812
+Epoch 130 - Average Training Loss: 1.0226894248008729; Average Validation Loss: 4.771380756474748
+Epoch 140 - Average Training Loss: 1.0235515162467956; Average Validation Loss: 5.170000118545339
+Epoch 149 - Average Training Loss: 1.0155459348678588; Average Validation Loss: 4.642796299125575
+Learning Rate = 0.001; Dropout Rate = 0.2; Batch Size = 128
+Epoch 0 - Average Training Loss: 5.275111150932312; Average Validation Loss: 2.8600513603113873
+Epoch 10 - Average Training Loss: 1.319765265274048; Average Validation Loss: 5.345882783962201
+Epoch 20 - Average Training Loss: 1.2200471384048461; Average Validation Loss: 1.9275648065760165
+Epoch 30 - Average Training Loss: 1.1594544864654541; Average Validation Loss: 3.661548047126094
+Epoch 40 - Average Training Loss: 1.1305839431762694; Average Validation Loss: 5.441093366357345
+Epoch 50 - Average Training Loss: 1.0850940698623657; Average Validation Loss: 3.5252042420302767
+Epoch 60 - Average Training Loss: 1.065196255683899; Average Validation Loss: 2.493555192705951
+Epoch 70 - Average Training Loss: 1.0368893932342529; Average Validation Loss: 1.8120531130440627
+Epoch 80 - Average Training Loss: 1.0145046211242676; Average Validation Loss: 1.366158799280094
+Epoch 90 - Average Training Loss: 0.9937428332328796; Average Validation Loss: 1.8427228158033346
+Epoch 100 - Average Training Loss: 0.9855970410346985; Average Validation Loss: 2.423342876796481
+Epoch 110 - Average Training Loss: 0.9988724580764771; Average Validation Loss: 2.375453004354163
+Epoch 120 - Average Training Loss: 0.9798276980400086; Average Validation Loss: 1.8874955448923232
+Epoch 130 - Average Training Loss: 0.9645332220077515; Average Validation Loss: 2.357087289230733
+Epoch 140 - Average Training Loss: 0.9645358755111695; Average Validation Loss: 2.0543441168869596
+Epoch 149 - Average Training Loss: 0.9571588651657105; Average Validation Loss: 4.043570624122137
+Learning Rate = 0.001; Dropout Rate = 0.3; Batch Size = 128
+Epoch 0 - Average Training Loss: 5.275111150932312; Average Validation Loss: 2.8600513603113873
+Epoch 10 - Average Training Loss: 1.319765265274048; Average Validation Loss: 5.345882783962201
+Epoch 20 - Average Training Loss: 1.2200471384048461; Average Validation Loss: 1.9275648065760165
+Epoch 30 - Average Training Loss: 1.1594544864654541; Average Validation Loss: 3.661548047126094
+Epoch 40 - Average Training Loss: 1.1305839431762694; Average Validation Loss: 5.441093366357345
+Epoch 50 - Average Training Loss: 1.0850940698623657; Average Validation Loss: 3.5252042420302767
+Epoch 60 - Average Training Loss: 1.065196255683899; Average Validation Loss: 2.493555192705951
+Epoch 70 - Average Training Loss: 1.0368893932342529; Average Validation Loss: 1.8120531130440627
+Epoch 80 - Average Training Loss: 1.0145046211242676; Average Validation Loss: 1.366158799280094
+Epoch 90 - Average Training Loss: 0.9937428332328796; Average Validation Loss: 1.8427228158033346
+Epoch 100 - Average Training Loss: 0.9855970410346985; Average Validation Loss: 2.423342876796481
+Epoch 110 - Average Training Loss: 0.9988724580764771; Average Validation Loss: 2.375453004354163
+Epoch 120 - Average Training Loss: 0.9798276980400086; Average Validation Loss: 1.8874955448923232
+Epoch 130 - Average Training Loss: 0.9645332220077515; Average Validation Loss: 2.357087289230733
+Epoch 140 - Average Training Loss: 0.9645358755111695; Average Validation Loss: 2.0543441168869596
+Epoch 149 - Average Training Loss: 0.9571588651657105; Average Validation Loss: 4.043570624122137
+Learning Rate = 0.001; Dropout Rate = 0.4; Batch Size = 128
+Epoch 0 - Average Training Loss: 5.275111150932312; Average Validation Loss: 2.8600513603113873
+Epoch 10 - Average Training Loss: 1.319765265274048; Average Validation Loss: 5.345882783962201
+Epoch 20 - Average Training Loss: 1.2200471384048461; Average Validation Loss: 1.9275648065760165
+Epoch 30 - Average Training Loss: 1.1594544864654541; Average Validation Loss: 3.661548047126094
+Epoch 40 - Average Training Loss: 1.1305839431762694; Average Validation Loss: 5.441093366357345
+Epoch 50 - Average Training Loss: 1.0850940698623657; Average Validation Loss: 3.5252042420302767
+Epoch 60 - Average Training Loss: 1.065196255683899; Average Validation Loss: 2.493555192705951
+Epoch 70 - Average Training Loss: 1.0368893932342529; Average Validation Loss: 1.8120531130440627
+Epoch 80 - Average Training Loss: 1.0145046211242676; Average Validation Loss: 1.366158799280094
+Epoch 90 - Average Training Loss: 0.9937428332328796; Average Validation Loss: 1.8427228158033346
+Epoch 100 - Average Training Loss: 0.9855970410346985; Average Validation Loss: 2.423342876796481
+Epoch 110 - Average Training Loss: 0.9988724580764771; Average Validation Loss: 2.375453004354163
+Epoch 120 - Average Training Loss: 0.9798276980400086; Average Validation Loss: 1.8874955448923232
+Epoch 130 - Average Training Loss: 0.9645332220077515; Average Validation Loss: 2.357087289230733
+Epoch 140 - Average Training Loss: 0.9645358755111695; Average Validation Loss: 2.0543441168869596
+Epoch 149 - Average Training Loss: 0.9571588651657105; Average Validation Loss: 4.043570624122137
+Learning Rate = 0.001; Dropout Rate = 0.5; Batch Size = 128
+Epoch 0 - Average Training Loss: 5.275111150932312; Average Validation Loss: 2.8600513603113873
+Epoch 10 - Average Training Loss: 1.319765265274048; Average Validation Loss: 5.345882783962201
+Epoch 20 - Average Training Loss: 1.2200471384048461; Average Validation Loss: 1.9275648065760165
+Epoch 30 - Average Training Loss: 1.1594544864654541; Average Validation Loss: 3.661548047126094
+Epoch 40 - Average Training Loss: 1.1305839431762694; Average Validation Loss: 5.441093366357345
+Epoch 50 - Average Training Loss: 1.0850940698623657; Average Validation Loss: 3.5252042420302767
+Epoch 60 - Average Training Loss: 1.065196255683899; Average Validation Loss: 2.493555192705951
+Epoch 70 - Average Training Loss: 1.0368893932342529; Average Validation Loss: 1.8120531130440627
+Epoch 80 - Average Training Loss: 1.0145046211242676; Average Validation Loss: 1.366158799280094
+Epoch 90 - Average Training Loss: 0.9937428332328796; Average Validation Loss: 1.8427228158033346
+Epoch 100 - Average Training Loss: 0.9855970410346985; Average Validation Loss: 2.423342876796481
+Epoch 110 - Average Training Loss: 0.9988724580764771; Average Validation Loss: 2.375453004354163
+Epoch 120 - Average Training Loss: 0.9798276980400086; Average Validation Loss: 1.8874955448923232
+Epoch 130 - Average Training Loss: 0.9645332220077515; Average Validation Loss: 2.357087289230733
+Epoch 140 - Average Training Loss: 0.9645358755111695; Average Validation Loss: 2.0543441168869596
+Epoch 149 - Average Training Loss: 0.9571588651657105; Average Validation Loss: 4.043570624122137
+
+
+
+
+| Learning Rate | Dropout Rate | Final Training Loss    | Final Validation Loss 			 |          
+|----------------|---------------|-----------------------|--------------------------------------------|
+| 0.1             | 0.2            | 5644.41              | 4965.89                			|
+| 0.1             | 0.3            | 5644.41              | 4965.89                			|
+| 0.1             | 0.4            | 5644.41              | 4965.89                			|
+| 0.1             | 0.5            | 5644.41              | 4965.89               			|
+| 0.01           | 0.2            | 1.02                    | 4.64                 			|	
+| 0.01           | 0.3            | 1.02                    | 4.64                  			|
+| 0.01           | 0.4            | 1.02                    | 4.64                   			|
+| 0.01           | 0.5            | 1.02                    | 4.64                   			|
+| 0.001         | 0.2            | 0.96                    | 4.04                   			|
+| 0.001         | 0.3            | 0.96                    | 4.04                  			|
+| 0.001         | 0.4            | 0.96                    | 4.04                   			|
+| 0.001         | 0.5            | 0.96                    | 4.04                   			|
+
